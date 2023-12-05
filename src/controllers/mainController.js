@@ -4,11 +4,11 @@ const path= require("path");
 
 const controller= {
     homeController: (req, res)=>{
-        res.render(path.resolve("./views/index"))
+        res.render(path.resolve("./src/views/index"))
     },
 
     carritoDeComprasController: (req,res)=>{
-        res.render(path.resolve("./views/carritoDeCompras"))
+        res.render(path.resolve("./src/views/carritoDeCompras"))
     },
 
     productDetailController: (req,res)=>{
@@ -62,21 +62,21 @@ const controller= {
 
     
 
-        res.render(path.resolve("./views/productDetail"),  { data, dataabo, datafert, dataherb, datainsec, datasol } )
+        res.render(path.resolve("./src/views/productDetail"),  { data, dataabo, datafert, dataherb, datainsec, datasol } )
 
     },
 
 
     loginController: (req,res)=>{
-        res.render(path.resolve("./views/login"))
+        res.render(path.resolve("./src/views/login"))
     },
 
     registerController: (req,res)=>{
-        res.render(path.resolve("./views/register"))
+        res.render(path.resolve("./src/views/register"))
     },
 
     aboutController: (req,res)=>{
-        res.render(path.resolve("./views/about"))
+        res.render(path.resolve("./src/views/about"))
     },
 
 

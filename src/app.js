@@ -8,7 +8,7 @@ const router=require('./routers/main');
 const PORT= process.env.PORT || 3001;
 
 
-app.use(express.static(path.join('../public')));
+app.use(express.static(path.join('./public')));
 
 app.use("/", router);
 
