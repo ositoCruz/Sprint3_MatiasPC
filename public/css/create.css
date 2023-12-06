@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Fondo blanco */
+    color: #000; /* Texto negro */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #000; /* Texto negro */
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000; /* Texto negro */
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000; /* Borde negro */
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #008000; /* Verde */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #006400; /* Verde más oscuro al pasar el ratón */
+  }

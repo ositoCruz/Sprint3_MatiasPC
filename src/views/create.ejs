@@ -1,0 +1,43 @@
+<html>
+  <%- include("partials/head")  %>
+  <link rel="stylesheet" href="/css/login.css">
+    
+<body>
+  <%- include("partials/header")  %>    
+
+<div class="login-container">
+
+<form action="/">
+  <h2>Crear Producto</h2>
+
+  <label for="nombre">Nombre del Producto:</label><br>
+  <input type="text" id="nombre" name="nombre"><br>
+
+  <label for="descripcion">Descripción:</label><br>
+  <textarea id="descripcion" name="descripcion"></textarea><br><br> 
+  <label for="foto_producto">Imagen del Producto:</label>
+  <br>
+  <input type="file" name="foto_producto" accept="image/*"><br>
+
+
+  <label for="categoria">Categoria del Producto:</label>
+  <select name="categoria">
+  <option value="herbicida">Herbicida</option>
+  <option value="abono">Abono</option>
+  <option value="Fertilizante">Fertilizante</option>
+  <option value="Insecticida">Insecticida</option>
+  <option value="Solucion">Solucion</option>
+            </select><br><br>
+
+
+  <label for="precio">Precio:</label><br>
+  <input type="number" id="precio" name="precio" min="0" step="0.01"><br>
+
+  <label for="stock">Cantidad en Stock:</label><br>
+  <input type="number" id="stock" name="stock" min="0"><br>
+
+  <input class="buttonDecoration" type="submit" value="Crear Producto">
+</form>
+</div>
+</body>
+<%- include("partials/footer")  %>

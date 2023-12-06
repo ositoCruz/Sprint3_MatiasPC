@@ -79,6 +79,10 @@ const controller= {
         res.render(path.resolve("./src/views/about"))
     },
 
+    createController: (req,res)=>{
+        res.render(path.resolve("./src/views/create"))
+    },
+
 
 }
 

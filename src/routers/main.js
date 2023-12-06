@@ -11,7 +11,8 @@ const routes={
     productDetailRoute: "/product/:id?",
     registerRoute:"/register",  
     loginRoute:"/login",
-    aboutRoute:"/about"
+    aboutRoute:"/about",
+    createRoute:"/create"
 };
 
 router.get(routes.homeRoute, controller.homeController);
@@ -20,6 +21,7 @@ router.get(routes.productDetailRoute, controller.productDetailController);
 router.get(routes.registerRoute, controller.registerController);
 router.get(routes.loginRoute, controller.loginController);
 router.get(routes.aboutRoute, controller.aboutController);
+router.get(routes.createRoute, controller.createController);
 
 
 
