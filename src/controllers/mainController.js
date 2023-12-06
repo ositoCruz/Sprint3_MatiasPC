@@ -38,7 +38,7 @@ const controller= {
         
         name: "Herbicida",
         descripcion:"Herbicida Atila de Afrasa es un herbicida sistémico no selectivo.",
-        precio: 1200.99,
+        precio: 3150.99,
         stock: "En stock",
         pic: "/images/Herbicida-atrina.jpg"
     };
